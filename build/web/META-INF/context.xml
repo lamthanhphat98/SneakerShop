@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SneakerShop">
+<!--    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+                name="SE1272" password="123456" type="javax.sql.DataSource" 
+                url="jdbc:sqlserver://localhost:1433;databaseName=SneakerShop"
+                username="sa"/>-->
+       <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+                name="SE1272" password="faker01@123" type="javax.sql.DataSource" 
+                url="jdbc:sqlserver://workflow3i.database.windows.net:1433;database=SneakerShop;user=workflow3iadmin@workflow3i;password=faker01@123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
+                username="workflow3iadmin@workflow3i"/>
+</Context>
